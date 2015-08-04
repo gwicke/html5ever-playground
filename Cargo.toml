@@ -1,0 +1,17 @@
+[package]
+name = "html5ever-test"
+version = "0.1.0"
+authors = ["Gabriel Wicke <gwicke@wikimedia.org>"]
+
+[dependencies.html5ever]
+git = "https://github.com/servo/html5ever"
+
+[dependencies.string_cache]
+git = "https://github.com/servo/string-cache"
+
+[dependencies.string_cache_plugin]
+git = "https://github.com/servo/string-cache"
+
+[dev-dependencies.html5ever_dom_sink]
+path = "../html5ever/dom_sink"
+
